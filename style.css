@@ -33,7 +33,6 @@ body {
 #root {
 	background-color: var(--color-light-gray);
 	width: 100vw;
-	margin: 10vh 5vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -103,3 +102,13 @@ img {
 - Mobile: 375px
 - Desktop: 1440px
 */
+@media only screen and (max-width: 375px) {
+	#root {
+		margin: 0;
+	}
+}
+@media only screen and (min-width: 376px) and (max-width: 1440px) and (min-height: 600px) {
+	#root {
+		margin: 10vh 5vw;
+	}
+}
