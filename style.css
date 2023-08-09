@@ -66,8 +66,7 @@ h4 {
 }
 
 img {
-	width: 15em;
-	height: 15em;
+	width: 100%;
 	margin: 0 auto;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
