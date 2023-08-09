@@ -61,9 +61,9 @@ h4 {
 .QR-card {
 	background-color: var(--color-white);
 	margin: 0 auto;
-	padding: 1em;
+	padding: 0.9em;
 	width: 18em;
-	height: 30em;
+	height: 28em;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
