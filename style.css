@@ -107,7 +107,7 @@ img {
 		margin: 0;
 	}
 }
-@media only screen and (min-width: 376px) and (max-width: 1440px) and (min-height: 600px) {
+@media only screen and (min-width: 376px) and (min-height: 600px) {
 	#root {
 		margin: 10vh 5vw;
 	}
