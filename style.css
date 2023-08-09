@@ -47,6 +47,20 @@ h4 {
 	font-weight: var(--font-weight-bold);
 }
 
+.QR-card {
+	background-color: var(--color-white);
+	margin: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
 /* media query */
 /* 
 - Mobile: 375px
