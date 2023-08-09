@@ -35,6 +35,7 @@ body {
 	width: 100vw;
 	margin: 10rem 6rem;
 	display: flex;
+	align-items: center;
 	justify-content: center;
 }
 
@@ -49,9 +50,10 @@ h4 {
 
 .QR-card {
 	background-color: var(--color-white);
-	margin: 6em auto;
+	margin: 0 auto;
 	padding: 1em;
-  width: 15em;
+	width: 15em;
+	height: 30em;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -75,9 +77,9 @@ img {
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 /* media query */
