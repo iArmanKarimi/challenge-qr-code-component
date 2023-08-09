@@ -39,12 +39,20 @@ body {
 	justify-content: center;
 }
 
+p,
+h4 {
+	margin: 0.9em;
+}
+
 p {
+  margin-top: 0;
 	font-size: 15px;
 	font-weight: var(--font-weight-regular);
+	color: var(--color-blue-gray);
 }
 
 h4 {
+	font-size: 20px;
 	font-weight: var(--font-weight-bold);
 }
 
@@ -52,7 +60,7 @@ h4 {
 	background-color: var(--color-white);
 	margin: 0 auto;
 	padding: 1em;
-	width: 15em;
+	width: 18em;
 	height: 30em;
 	display: flex;
 	flex-direction: column;
