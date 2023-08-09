@@ -3,6 +3,9 @@
 :root {
 	font-family: "Outfit", sans-serif;
 
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+
 	--color-white: hsl(0, 0%, 100%);
 	--color-blue-gray: hsl(220, 15%, 55%);
 	--color-blue-dark: hsl(218, 44%, 22%);
@@ -20,6 +23,10 @@ body {
 
 p {
 	font-size: 15px;
+}
+
+h4 {
+  
 }
 
 /* media query */
