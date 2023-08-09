@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+	font-family: "Outfit", sans-serif;
+	font-weight: var(--font-weight-regular);
+
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+
+	--color-white: hsl(0, 0%, 100%);
+	--color-blue-gray: hsl(220, 15%, 55%);
+	--color-blue-dark: hsl(218, 44%, 22%);
+	--color-light-gray: hsl(212, 45%, 89%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("./images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+#root {
+	background-color: var(--color-light-gray);
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 5px 30px 17px rgba(0, 0, 0, 0.25);
+}
+
+p,
+h4 {
+	margin: 1em 18px;
+	text-align: center;
+}
+
+p {
+	margin-top: 0;
+	font-size: 15px;
+	font-weight: var(--font-weight-regular);
+	color: var(--color-blue-gray);
+}
+
+h4 {
+	font-size: 22px;
+	font-weight: var(--font-weight-bold);
+	margin-bottom: 10px;
+}
+
+.QR-card {
+	background-color: var(--color-white);
+	margin: 0 auto;
+	padding: 0.9em;
+	width: 18em;
+	height: 28em;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-ms-border-radius: 1em;
+	-o-border-radius: 1em;
+	box-shadow: 0 5px 20px 4px rgb(0 0 0 / 10%);
+	transform: scale(0.68);
+	-webkit-transform: scale(0.68);
+	-moz-transform: scale(0.68);
+	-ms-transform: scale(0.68);
+	-o-transform: scale(0.68);
+}
+
+img {
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* media query */
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+*/
+@media only screen and (max-width: 375px) {
+	#root {
+		margin: 0;
+	}
+}
+@media only screen and (min-width: 376px) and (max-width: 1440px) and (min-height: 600px) {
+	#root {
+		margin: 10vh 5vw;
+	}
+}
