@@ -61,6 +61,16 @@ h4 {
 	-o-border-radius: 4px;
 }
 
+img {
+  width: 15em;
+  height: 15em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
 /* media query */
 /* 
 - Mobile: 375px
