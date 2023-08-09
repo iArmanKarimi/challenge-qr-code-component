@@ -34,6 +34,8 @@ body {
 	background-color: var(--color-light-gray);
 	width: 100vw;
 	margin: 10rem 6rem;
+	display: flex;
+	justify-content: center;
 }
 
 p {
