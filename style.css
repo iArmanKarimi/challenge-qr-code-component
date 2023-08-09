@@ -33,7 +33,7 @@ body {
 #root {
 	background-color: var(--color-light-gray);
 	width: 100vw;
-	margin: 10rem 6rem;
+	margin: 10vh 5vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -75,6 +75,11 @@ h4 {
 	-ms-border-radius: 1em;
 	-o-border-radius: 1em;
 	box-shadow: 0 5px 20px 4px rgb(0 0 0 / 10%);
+	transform: scale(0.68);
+	-webkit-transform: scale(0.68);
+	-moz-transform: scale(0.68);
+	-ms-transform: scale(0.68);
+	-o-transform: scale(0.68);
 }
 
 img {
