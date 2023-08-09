@@ -49,26 +49,35 @@ h4 {
 
 .QR-card {
 	background-color: var(--color-white);
-	margin: 6em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: nowrap;
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
+	margin: 6em auto;
+	padding: 1em;
+  width: 15em;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	-ms-border-radius: 1em;
+	-o-border-radius: 1em;
 }
 
 img {
-  width: 15em;
-  height: 15em;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+	width: 15em;
+	height: 15em;
+	margin: 0 auto;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* media query */
